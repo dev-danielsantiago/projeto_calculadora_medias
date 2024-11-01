@@ -61,6 +61,6 @@ function calculaMediaFinal(){
     for (let i =0; i < notas.length; i++){
         somaDasNotas += notas[i]
     }
-
-    return media.toFixed(2) = somaDasNotas / notas.length
+    const media = somaDasNotas / notas.length
+    return media.toFixed(2)
 }
